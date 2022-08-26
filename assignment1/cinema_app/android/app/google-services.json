@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1008816117683",
+    "project_id": "onlinebookingcinema",
+    "storage_bucket": "onlinebookingcinema.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008816117683:android:8e368605120a2504965dc6",
+        "android_client_info": {
+          "package_name": "com.bookingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1008816117683-c7eqtg07dsjuh2sjfoblqqa5gat39mmv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSc1kAN7-k_7RqMlm3lYNiJMe3fichI74"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1008816117683-c7eqtg07dsjuh2sjfoblqqa5gat39mmv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
