@@ -12,11 +12,11 @@ export default class BookNav extends Component {
   render() {
     return (
       <StackNav.Navigator initialRouteName="BookHome">
-        <StackNav.Screen name="BookHome" component={BookHome} />
-        <StackNav.Screen name="BookOption" component={BookOption} />
-        <StackNav.Screen name="BookPayment" component={BookPayment} />
-        <StackNav.Screen name="BookComplete" component={BookComplete} />
-        <StackNav.Screen name="MovieDetails" component={MovieDetails} />
+        <StackNav.Screen name="BookHome" component={BookHome} options={{headerShown: false}}/>
+        <StackNav.Screen name="BookOption" component={BookOption}/>
+        <StackNav.Screen name="BookPayment" component={BookPayment}/>
+        <StackNav.Screen name="BookComplete" component={BookComplete} options={{headerShown: false}} />
+        <StackNav.Screen name="MovieDetails" component={MovieDetails}/>
       </StackNav.Navigator>
     );
   }

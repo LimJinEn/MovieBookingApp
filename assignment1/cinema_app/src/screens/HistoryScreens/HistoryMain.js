@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {View, Text, StyleSheet, TouchableHighlight, Alert} from 'react-native';
+import {View, Text, StyleSheet, TouchableHighlight, Alert,Button} from 'react-native';
 import {FlatList} from 'react-native-gesture-handler';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 let SQLite = require('react-native-sqlite-storage');
@@ -100,9 +100,16 @@ export default class History extends Component {
                 </Text>
                 <Text style={{fontSize: 25}}>Payment: RM {item.price}</Text>
               </View>
-            </TouchableHighlight>
+            </TouchableHighlight>  
           )}
         />
+        <Button
+            title="Refresh"
+            onPress={() => {
+              this._query(this.state.uid);
+            }}>
+
+            </Button>
       </View>
     );
   }
