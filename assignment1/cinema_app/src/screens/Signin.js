@@ -43,7 +43,7 @@ const Signin = ({navigation}) => {
           <Input
             placeholder="Password"
             leftIcon={{type: 'font-awesome', name: 'chevron-left'}}
-            secureTextEntry={false}
+            secureTextEntry={true}
             value={password}
             onChangeText={text => setPassword(text)}
           />
