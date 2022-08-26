@@ -39,7 +39,7 @@ const Signup = ({navigation}) => {
   const [password, setPassword] = useState(null);
   const [email, setEmail] = useState(null);
   return (
-    <View>
+    <View style={{margin: 10}}>
       <Text style={styles.tx}>Signup</Text>
       <View style={styles.ip}>
         <Input
